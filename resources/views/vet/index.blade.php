@@ -24,6 +24,7 @@
                                 Email: {{ $v->email }}. Teléfono: {{ $v->phone }}.
                                 @if ($v->address != null)
                                     Dirección: {{ $v->address }}
+                                    Nombre dueño: {{ $v->name }}
                                 @endif
                             </p>
                         </div>

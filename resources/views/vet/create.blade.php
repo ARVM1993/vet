@@ -22,6 +22,11 @@
             <label for="address">Address</label>
             <input type="text" class="form-control" name="address">
         </div>
+        <div class="form-group">
+            <label for="ownername">Owner's name</label>
+            <input type="text" class="form-control" name="ownername">
+        </div>
+
 
         <button type="submit" class="btn btn-primary mt-3">Create</button>
     </form>
