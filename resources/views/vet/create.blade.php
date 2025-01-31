@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Create Vet') <!-- Aquí defines el título específico de la página -->
+@section('title', 'Create Vet') 
 
 @section('content')
-    <!-- contenido (formulario de edición del animal) -->
     <form action="{{ route('vet.store') }}" method="post">
         @csrf
         @method("POST")

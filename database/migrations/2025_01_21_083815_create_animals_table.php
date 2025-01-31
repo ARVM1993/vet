@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('animals', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-
             $table->string("name");
             $table->float("weight");
             $table->integer("age");
             $table->text("description");
             //$table->boolean("sick");
+            $table->foreignId("vets_id")->constrained();
         });
     }
 
